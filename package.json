@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/briancsparks/knuckleball-js/issues"
   },
-  "homepage": "https://github.com/briancsparks/knuckleball-js#readme"
+  "homepage": "https://github.com/briancsparks/knuckleball-js#readme",
+  "dependencies": {
+    "mongodb": "^4.12.1"
+  }
 }
