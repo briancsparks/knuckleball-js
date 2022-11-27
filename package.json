@@ -1,0 +1,23 @@
+{
+  "name": "knuckleball",
+  "version": "1.0.0",
+  "description": "Just try to hit it!",
+  "main": "index.js",
+  "bin": {
+    "kball": "bin/kball.js"
+  },
+  "scripts": {
+    "kball": "node bin/kball.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancsparks/knuckleball-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briancsparks/knuckleball-js/issues"
+  },
+  "homepage": "https://github.com/briancsparks/knuckleball-js#readme"
+}
