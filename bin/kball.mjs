@@ -5,7 +5,7 @@
 // await $`ls`
 
 
-import { getGetVpcs } from '../lib/aws/ec2.mjs';
+import { getGetSecurityGroups, getGetRouteTables } from '../lib/aws/ec2.mjs';
 import { inspect } from '../lib/utils.mjs';
 
 (async function() {
@@ -14,10 +14,19 @@ import { inspect } from '../lib/utils.mjs';
 
 async function main() {
 
-  const getVpcs = getGetVpcs();
-  console.log(inspect(await getVpcs()));
+  // const getVpcs     = getGetVpcs();
+  // console.log(inspect(await getVpcs()));
 
-  console.log('booya');
+  // const getSecurityGroups     = getGetSecurityGroups();
+  // console.log(inspect(await getSecurityGroups()));
+
+  // const getSubnets  = getGetSubnets();
+  // console.log(inspect(await getSubnets()));
+
+  const getRouteTables  = getGetRouteTables();
+  console.log(inspect(await getRouteTables()));
+
+  // console.log('booya');
 }
 
 
