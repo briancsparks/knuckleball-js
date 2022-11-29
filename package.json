@@ -7,7 +7,7 @@
     "kball": "bin/kball.js"
   },
   "scripts": {
-    "kball": "node bin/kball.js",
+    "kball": "node bin/kball.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/briancsparks/knuckleball-js#readme",
   "dependencies": {
+    "@aws-sdk/client-ec2": "^3.218.0",
     "amqplib": "^0.10.3",
     "mongodb": "^4.12.1",
     "zx": "^7.1.1"
