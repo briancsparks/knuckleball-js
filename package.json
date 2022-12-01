@@ -7,7 +7,7 @@
     "kball": "bin/kball.js"
   },
   "scripts": {
-    "kball": "node bin/kball.mjs",
+    "kball": "node lib/aws/kball.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
