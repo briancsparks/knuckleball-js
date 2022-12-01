@@ -1,5 +1,11 @@
-#!/usr/bin/env node
 
-import { $ } from 'zx';
+(async function() {
+  await main();
+})().catch(console.dir);
 
-await $`ls`
+async function main() {
+
+  console.log('booya');
+}
+
+
