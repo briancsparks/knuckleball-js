@@ -25,7 +25,10 @@
     "@aws-sdk/client-lambda": "^3.219.0",
     "amqplib": "^0.10.3",
     "deepmerge": "^4.2.2",
+    "dotenv": "^16.0.3",
     "mongodb": "^4.12.1",
+    "mqtt": "^4.3.7",
+    "nodemon": "^2.0.20",
     "zx": "^7.1.1"
   }
 }
